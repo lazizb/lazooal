@@ -1,0 +1,253 @@
+@import url(./fonts.css);
+
+:root {
+    --OR: 'OpenSans-Regular';
+    --VR: 'VarelaRound-Regular';
+    --bg: #A5C926;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__top {
+    background: var(--bg);
+    padding: 15px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top-list {
+    display: flex;
+    gap: 16px;
+}
+
+.header__top-list2 {
+    display: flex;
+    gap: 15px;
+}
+
+.header__top-link {
+    font-family: var(--OR);
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    transition: .5s;
+}
+
+.header__top-link:hover {
+    color: #268dc9;
+}
+
+.header__top-item i {
+    color: #fff;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.header__top-item i:hover {
+    color: #FB416B;
+}
+
+.header__top-first {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.header__between {
+    padding: 12px 0;
+}
+
+.header__logo {
+    font-family: var(--VR);
+    font-size: 21px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.header__top-list1 {
+    display: flex;
+    padding: 0 24px;
+}
+
+.header__between-link {
+    padding: 12px 18px;
+    font-family: var(--OR);
+    font-size: 14px;
+    line-height: 24px;
+    color: #111111;
+    transition: .3s;
+}
+
+.header__between-link:hover {
+    background: var(--bg);
+    color: #fff;
+}
+
+.header__top-list2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header__top-link1 {
+    font-family: var(--OR);
+    font-size: 15px;
+    line-height: 24px;
+    color: #111111;
+    text-transform: capitalize;
+}
+
+.header__top-link2 i {
+
+    font-size: 15px;
+    color: #111111;
+}
+
+.header__top-link3 {
+    border-radius: 50%;
+    padding: 3px 7px;
+    background: var(--bg);
+    font-family: var(--OR);
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header__bottom1 {
+    width: 1200px;
+    background: url(../images/header__between-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 250px 0;
+    display: block;
+    overflow: hidden;
+    display: block;
+}
+
+.header__bottom2 {
+    width: 1200px;
+    background: url(../images/header__between-bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 250px 0;
+    overflow: hidden;
+    display: block;
+}
+
+.header__bottom3 {
+    width: 1200px;
+    background: url(../images/header__between-bg3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 250px 0;
+    display: block;
+    overflow: hidden;
+}
+.header__content{
+    display: flex;
+    overflow: hidden;
+}
+.header__bottom-inner {
+    max-width: 570px;
+    padding: 56px 77px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+
+.header__bottom-span {
+    font-family: var(--OR);
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #A5C926;
+    margin-bottom: 17px;
+}
+
+.header__bottom-title {
+    font-family: var(--VR);
+    font-size: 39px;
+    line-height: 48px;
+    text-align: center;
+    color: #111111;
+    margin-bottom: 11px;
+}
+
+.header__btn {
+    background: #A5C926;
+    border-radius: 24px;
+    padding: 12px 28px;
+    font-family: var(--OR);
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: .3s;
+}
+
+.header__btn:hover {
+    background: #FFC12C;
+}
+
+.header {
+    position: relative;
+}
+
+.header__carousel {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: -100px;
+}
+
+.header__circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    opacity: 0.5;
+}
